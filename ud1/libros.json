@@ -1,0 +1,15 @@
+{
+    "asunto":"Lenguaje de Marcas",
+    "publicación":"2021",
+    "editorial":"Paraninfo",
+    "lenguajes":[
+        {
+            "nombre":"HTML",
+            "uso":"web"
+        },
+        {
+            "nombre":"XML",
+            "uso":"Intercambio de datos"
+        }
+    ]
+}
