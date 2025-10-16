@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de tabla avanzada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resultado de la búsqueda</h1>
+
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Datos</th>
+        </tr>
+
+        <tr>
+            <td>
+                <!-- URL de imagen del portátil -->
+                <img src="portatil.png" alt="Portátil" width="100">
+            </td>
+            <td>
+                <a href="#">Portátil - 3 GHz - 4 GB RAM</a><br>
+                <a href="#">Comprar</a>: <del>3.099 €</del> → <strong>2.599 €</strong>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!-- URL de imagen de la videocámara -->
+                <img src="videocamara.png" alt="Videocámara" width="100">
+            </td>
+            <td>
+                <a href="#">Videocámara - Alta definición 1080p - 60 GB</a><br>
+                <a href="#">Comprar</a>: <del>1.099 €</del> → <strong>999 €</strong>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!-- URL de imagen del televisor -->
+                <img src="tv.png" alt="Televisor" width="100">
+            </td>
+            <td>
+                <a href="#">Televisor - 46" - Full HD</a><br>
+                <a href="#">Comprar</a>: <del>1.999 €</del> → <strong>1.799 €</strong>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!-- URL de imagen del móvil -->
+                <img src="movil.png" alt="Móvil" width="100">
+            </td>
+            <td>
+                <a href="#">Móvil - 3G - Wi-Fi - 8 GB</a><br>
+                <a href="#">Comprar</a>: <del>399 €</del> → <strong>349 €</strong>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
