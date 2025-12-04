@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <isbn>9781111111111</isbn>
+        <titulo>El quijote 3: Ahora es personal</titulo>
+        <anyo>2020</anyo>
+        <editorial>Editorial Olivita de Mar S.A.</editorial>
+        <autor>Iker Saavedra Quiñoá</autor>
+        <descripcion xml:lang="es">El caballero que todos conoceis ahora reencarnado en el famoso e idolatrado Daniel Santome Lemus tendrá que rescatar a la bella dama Olivia.</descripcion>
+    </libro>
+
+    <libro>
+        <isbn>9782222222222</isbn>
+        <titulo>Libro de las ubres animales</titulo>
+        <anyo>2022</anyo>
+        <editorial>Pollitokonalioli</editorial>
+        <autor>Marcos marquitos apellido2</editorial>
+        <descripcion xml:lang="es">El libro más importante para la vida de todo empresario.</descripcion>
+    </libro>
+</biblioteca>
